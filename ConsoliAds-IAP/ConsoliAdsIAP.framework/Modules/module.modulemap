@@ -1,0 +1,6 @@
+framework module ConsoliAdsIAP {
+  umbrella header "ConsoliAdsIAP.h"
+
+  export *
+  module * { export * }
+}
