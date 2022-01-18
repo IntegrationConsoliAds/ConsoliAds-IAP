@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-IAP'
-  s.version          = '0.0.1'
-  s.summary          = 'ConsoliAds-IAP is a pod for Consoliads inApp purchases.'
+  s.version          = '1.1.3'
+  s.summary          = 'This  pod is used for Consoliads inApp purchases.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'ConsoliAds-IAP is a pod for Consoliads inApp purchases.'
+  'This  pod is used for Consoliads inApp purchases.'
                        DESC
 
   s.homepage         = 'https://github.com/IntegrationConsoliAds/ConsoliAds-IAP'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'IntegrationConsoliAds' => 'integration@consoliads.com' }
   s.source           = { :git => 'https://github.com/IntegrationConsoliAds/ConsoliAds-IAP.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'ConsoliAds-IAP/ConsoliAdsIAP.framework'
@@ -35,13 +33,5 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
-#  s.source_files = 'ConsoliAds-IAP/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ConsoliAds-IAP' => ['ConsoliAds-IAP/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
