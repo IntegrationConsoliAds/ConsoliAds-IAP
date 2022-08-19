@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,12 +31,12 @@
 		95B90732813C3B31E0CD67D41E59F99F /* Pods-ConsoliAds-IAP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3859C2BB1E18C0CC18BE322A1066A293 /* Pods-ConsoliAds-IAP_Tests-dummy.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BAFA435327871B0800B3A7FB /* ConsoliAdsIAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA435227871B0800B3A7FB /* ConsoliAdsIAP.framework */; };
 		BBC255A99A203834E8214E9B778DD7B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		CEB31B06264A5EBFA33BBBD8759B5ABF /* ConsoliAds-IAP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A94EBB3900E88F559050B23A56E632 /* ConsoliAds-IAP-dummy.m */; };
+		FCE5F99E28AFB3EA00B51231 /* ConsoliAdsIAP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE5F99D28AFB3EA00B51231 /* ConsoliAdsIAP.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -113,7 +113,6 @@
 		B5345E2B77AF7BB31DD6305934E05704 /* ConsoliAds-IAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConsoliAds-IAP.release.xcconfig"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B9385877CDB442296D2083525CD2A1D1 /* Pods-ConsoliAds-IAP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConsoliAds-IAP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BAFA435227871B0800B3A7FB /* ConsoliAdsIAP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsIAP.framework; path = "ConsoliAds-IAP/ConsoliAdsIAP.framework"; sourceTree = "<group>"; };
 		C3E5D28D0E13BD029E1700F3F3B0059E /* Pods-ConsoliAds-IAP_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-IAP_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C75B5A99D62ED745265E237E46D59E76 /* Pods-ConsoliAds-IAP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-IAP_Tests-Info.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EC9FCE424904EB292C97C411FA0F70CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4A94EBB3900E88F559050B23A56E632 /* ConsoliAds-IAP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConsoliAds-IAP-dummy.m"; sourceTree = "<group>"; };
+		FCE5F99D28AFB3EA00B51231 /* ConsoliAdsIAP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsIAP.xcframework; path = "ConsoliAds-IAP/ConsoliAdsIAP.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFA435327871B0800B3A7FB /* ConsoliAdsIAP.framework in Frameworks */,
+				FCE5F99E28AFB3EA00B51231 /* ConsoliAdsIAP.xcframework in Frameworks */,
 				931D4BE81DBDB48E2271B50ADC01235E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +331,7 @@
 		D4F5E7F492937627EC3B05A69836E935 /* ConsoliAds-IAP */ = {
 			isa = PBXGroup;
 			children = (
-				BAFA435227871B0800B3A7FB /* ConsoliAdsIAP.framework */,
+				FCE5F99D28AFB3EA00B51231 /* ConsoliAdsIAP.xcframework */,
 				000BA6596F31C2BB26EE87561B5578EE /* Pod */,
 				C4753815C3ED38501DF97C0FA87BA4EC /* Support Files */,
 			);
@@ -620,7 +620,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -651,7 +655,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Tests/Pods-ConsoliAds-IAP_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Tests/Pods-ConsoliAds-IAP_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -725,6 +733,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -749,7 +758,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Example/Pods-ConsoliAds-IAP_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Example/Pods-ConsoliAds-IAP_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -782,7 +795,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_IAP;
 				PRODUCT_NAME = ConsoliAds_IAP;
@@ -813,7 +830,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Tests/Pods-ConsoliAds-IAP_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Tests/Pods-ConsoliAds-IAP_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -846,7 +867,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -914,8 +939,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -938,7 +965,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_IAP;
 				PRODUCT_NAME = ConsoliAds_IAP;
@@ -968,7 +999,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Example/Pods-ConsoliAds-IAP_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IAP_Example/Pods-ConsoliAds-IAP_Example.modulemap";
 				OTHER_LDFLAGS = "";

@@ -26,12 +26,12 @@ Pod::Spec.new do |s|
   s.author           = { 'IntegrationConsoliAds' => 'integration@consoliads.com' }
   s.source           = { :git => 'https://github.com/IntegrationConsoliAds/ConsoliAds-IAP.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'ConsoliAds-IAP/ConsoliAdsIAP.framework'
+  s.ios.deployment_target = '10.0'
+  s.vendored_frameworks = 'ConsoliAds-IAP/ConsoliAdsIAP.xcframework'
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
 
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES'}
+  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES'}
   s.static_framework = true
 
 end
