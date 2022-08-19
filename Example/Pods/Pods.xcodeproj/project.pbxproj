@@ -790,7 +790,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.framework\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.framework\"",
+					"\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.xcframework\"",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -960,7 +963,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.framework\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.framework\"",
+					"\"$(SRCROOT)/../../ConsoliAds-IAP/ConsoliAdsIAP.xcframework\"",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IAP/ConsoliAds-IAP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
